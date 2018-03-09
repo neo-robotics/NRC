@@ -14,6 +14,6 @@ The NRC token paid are then distributed to the geolocation-posters, which motiva
 
 ## Demo
 
-Watch our demo video: [](https://www.youtube.com/watch?v=R0IuDfLkoBs)
+[Watch our demo video](https://www.youtube.com/watch?v=R0IuDfLkoBs)
 
 
