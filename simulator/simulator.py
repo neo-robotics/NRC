@@ -223,13 +223,13 @@ clock = pygame.time.Clock()
 tStartSender = tStartReceiver = time.time()
 lastUpdatedTime = -1
 
-# # Purchase a ticket for receiver
-# if not requestTicket():
-#     print("Failed to request ticket!")
-#     sys.exit(1)
-# 
-# # Wait for the ticket to be included in blockchain
-# time.sleep(60)
+# Purchase a ticket for receiver
+if not requestTicket():
+    print("Failed to request ticket!")
+    sys.exit(1)
+
+# Wait for the ticket to be included in blockchain
+time.sleep(60)
 
 # Run the sender thread
 def senderAction():
@@ -279,7 +279,7 @@ while True:
         else:
             print("No collision will occur.")
 
-    # update detected object's location if possible
+    # update detected object's location if applicable
     if locDetectedObj0 is not None:
         (xd0, yd0) = locDetectedObj0
         xd1 = xd0 + dx * (t - tLastDetection)
