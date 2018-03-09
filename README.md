@@ -14,15 +14,15 @@ The NRC token paid are then distributed to the geolocation-posters, which motiva
 
 ## Demo
 
-Watch our demo video: <https://www.youtube.com/watch?v=R0IuDfLkoBs>
+Watch our demo video on YouTube: <https://www.youtube.com/watch?v=R0IuDfLkoBs>
 
 #### Without NRC
 
-A autonomous white car is driving straight on a road: 
+An autonomous white car is driving straight on a road: 
 
 ![D1](https://github.com/neo-robotics/NRC/blob/master/figures/D1.jpg)
 
-Its onboard sensors could not detect any vehicles on the north-south road as they are blocked by the "walls". It keeps driving forward and collides with a red car: 
+Its onboard sensors could not detect any vehicles on the north-south road as they are blocked by the "walls". It keeps driving forward, and unfortunately, collides with a red car: 
 ![D2](https://github.com/neo-robotics/NRC/blob/master/figures/D2.jpg)
 
 #### With NRC
