@@ -16,9 +16,9 @@ The NRC token paid are then distributed to the geolocation-posters, which motiva
 
 Watch our demo video: <https://www.youtube.com/watch?v=R0IuDfLkoBs>
 
-![D1](https://https://github.com/neo-robotics/NRC/blob/master/figures/D1.jpg)
-![D2](https://https://github.com/neo-robotics/NRC/blob/master/figures/D2.jpg)
-![D3](https://https://github.com/neo-robotics/NRC/blob/master/figures/D3.jpg)
-![D4](https://https://github.com/neo-robotics/NRC/blob/master/figures/D4.jpg)
-![D5](https://https://github.com/neo-robotics/NRC/blob/master/figures/D5.jpg)
+![D1](https://github.com/neo-robotics/NRC/blob/master/figures/D1.jpg)
+![D2](https://github.com/neo-robotics/NRC/blob/master/figures/D2.jpg)
+![D3](https://github.com/neo-robotics/NRC/blob/master/figures/D3.jpg)
+![D4](https://github.com/neo-robotics/NRC/blob/master/figures/D4.jpg)
+![D5](https://github.com/neo-robotics/NRC/blob/master/figures/D5.jpg)
 
