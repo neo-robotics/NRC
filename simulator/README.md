@@ -12,7 +12,7 @@ This simulator demonstrates how an autonomous white car utilizes the NRC platfor
 
 4. Invoke the contract with the `deploy` method: `testinvoke 3c6a0ee4cecadfd6d3fd06fd7e7eedfa6d57dfe1 deploy []`.
 
-5. The sender wallet is the administrator who has the privlege to transfer NRC token from the NRC pool to a NEO address. Invoke the contract with the `transferFromPool` method to send some NRC token to the sender and the receiver for testing:
+5. The sender wallet is the administrator who has the privilege to transfer NRC token from the NRC pool to a NEO address. Invoke the contract with the `transferFromPool` method to send some NRC token to the sender and the receiver for testing:
 
 ```
 testinvoke 3c6a0ee4cecadfd6d3fd06fd7e7eedfa6d57dfe1 transferFromPool ["APZKN2CuaB73i4LamV6RwySWjYVCRph5e8",10000]
@@ -51,4 +51,5 @@ To demonstrate the collision, comment out the `postGeolocation()` in the `sender
 
 ![D3](https://github.com/neo-robotics/NRC/blob/master/figures/D3.jpg)
 ![D4](https://github.com/neo-robotics/NRC/blob/master/figures/D4.jpg)
+![D5](https://github.com/neo-robotics/NRC/blob/master/figures/D5.jpg)
 
