@@ -2,6 +2,8 @@
 
 NRC (NEO Robot Communication) is a decentralized platform for human-robot communication. It allows an autonomous car to obtain other vehicles' information which may not be detectable by its onboard sensors to avoid potential collisions.
 
+Whitepaper: https://github.com/neo-robotics/whitepaper/blob/master/ner.pdf
+
 ## Incentive
 
 Vehicles can post their geolocations to the NRC platform. 
