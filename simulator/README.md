@@ -1,4 +1,4 @@
-# NRC Simulator
+# NRC Simulator (2D Demo)
 
 This simulator demonstrates how an autonomous white car utilizes the NRC platform to avoid a potential collision with a red car. The red car keeps posting its geolocations to the NRC platform. The autonomous white car obtains its geolocations from which it detects a potential collision. It then reduces its speed to avoid such a collision. It is noted that in order to obtain geolocations from NRC, the autonomous car must hold a valid ticket which could be purchased by paying a certain amount of NRC token to the NRC platform. The longer is the ticket validity, the more fee should the autonomous car pay. The NRC token paid will then be credited to the red car to motivate its service.
 
