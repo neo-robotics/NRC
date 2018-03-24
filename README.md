@@ -12,22 +12,40 @@ The NRC token paid are then distributed to the geolocation-posters, which motiva
 
 ## Demo
 
-Watch our demo video on YouTube: <https://www.youtube.com/watch?v=R0IuDfLkoBs>
+Watch our demo video on YouTube: <https://youtu.be/u59L_q37pxc>
+
+A human driver and an autonomous car tried to navigate through an intersection at the same time:
+![setup](https://github.com/neo-robotics/NRC/blob/master/figures/0.setup.png)
 
 #### Without NRC
 
-An autonomous white car is driving straight on a road: 
-![D1](https://github.com/neo-robotics/NRC/blob/master/figures/D1.jpg)
+The human driven car was driving straight forward:
+![human-wo](https://github.com/neo-robotics/NRC/blob/master/figures/1.human-wo.png)
 
-Its onboard sensors could not detect any vehicles on the north-south road as they are blocked by the "walls". It keeps driving forward, and unfortunately, collides with a red car: 
-![D2](https://github.com/neo-robotics/NRC/blob/master/figures/D2.jpg)
+The autonomous car was driving forward. Its onboard sensors could not detect anything on the right side road as they were blocked by the bushes:
+![robot-wo](https://github.com/neo-robotics/NRC/blob/master/figures/2.robot-wo.png)
+
+The autonomous car was not aware that a human driven car was nearby, and unfortunately, it collided with the human car:
+![collision](https://github.com/neo-robotics/NRC/blob/master/figures/3.collision.png)
 
 #### With NRC
 
-The red car keeps posting its geolocations to the NRC platform. The autonomous white car, which has already purchased a ticket on the NRC platform, obtains the red car's geolocations (blue circle): 
-![D3](https://github.com/neo-robotics/NRC/blob/master/figures/D3.jpg)
+The human driven car kept posting its position to the blockchain:
+![human-w](https://github.com/neo-robotics/NRC/blob/master/figures/4.human-w.png)
 
-From the data it detects a potential collision. It then reduces its speed to avoid the collision:
-![D4](https://github.com/neo-robotics/NRC/blob/master/figures/D4.jpg)
-![D5](https://github.com/neo-robotics/NRC/blob/master/figures/D5.jpg)
+The position was broadcast to the blockchain:
+![post](https://github.com/neo-robotics/NRC/blob/master/figures/5.post.png)
+
+The autonomous car received positions of nearby objects from the blockchain:
+![robot-w](https://github.com/neo-robotics/NRC/blob/master/figures/6.robot-w.png)
+
+The positions of the human driven car were received:
+![receive](https://github.com/neo-robotics/NRC/blob/master/figures/7.receive.png)
+
+The autonomous detected a potential collision, and consequently, it stopped for a while, which avoided such a collision.
+![stop](https://github.com/neo-robotics/NRC/blob/master/figures/8.stop.png)
+
+The human driven car was rewarded with NRC tokens.
+![reward](https://github.com/neo-robotics/NRC/blob/master/figures/9.reward.png)
+
 
