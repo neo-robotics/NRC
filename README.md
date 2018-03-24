@@ -12,9 +12,10 @@ The NRC token paid are then distributed to the geolocation-posters, which motiva
 
 ## Demo
 
-Watch our demo video:
+Watch our demo video on
 
 YouTube: <https://youtu.be/u59L_q37pxc>
+
 YouKu: <http://v.youku.com/v_show/id_XMzQ4ODQ1MzQxNg==.html>
 
 A human driver and an autonomous car tried to navigate through an intersection at the same time:
